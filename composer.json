@@ -1,0 +1,27 @@
+{
+    "name": "different/tsms",
+    "description": "Tsms - Telekom mass SMS sender PHP client.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kálóczi Kevin",
+            "email": "kaloczi.kevin@different.hu"
+        }
+    ],
+    "keywords": [
+        "different",
+        "telekom",
+        "sms",
+        "smsc"
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "7.4.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Different\\Tsms\\": "src/"
+        }
+    }
+}
